@@ -15,7 +15,7 @@ class Listing(models.Model):
     bathrooms = models.DecimalField(max_digits=2, decimal_places=1)
     garage = models.IntegerField(default=0)
     sqft = models.IntegerField()
-    lot_size = models.DecimalField(max_digits=6, decimal_places=5)
+    lot_size = models.DecimalField(max_digits=6, decimal_places=2)
     photo_main = models.ImageField(upload_to='photos/%Y/%m/%d/')#location inside media folder split into dates is was uploaded not by id
     photo_1 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True) 
     photo_2 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
