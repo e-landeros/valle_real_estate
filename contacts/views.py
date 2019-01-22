@@ -31,7 +31,7 @@ def contact(request):
             'Property listing Inquiry',
             'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info.'
             'marketing.landeros@gmail.com'
-            [realtor_email,'landerosedhard@gmail.com'],
+            [realtor_email,'landerosedgard@gmail.com'],
             fail_silently=False
         )
 
