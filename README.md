@@ -8,67 +8,33 @@ It has custom administration for staff and a dashboard for registerd users.
 .
 ├── README.md
 ├── accounts
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-36.pyc
-│   │   ├── admin.cpython-36.pyc
-│   │   ├── apps.cpython-36.pyc
-│   │   ├── models.cpython-36.pyc
-│   │   ├── urls.cpython-36.pyc
-│   │   └── views.cpython-36.pyc
+│   |
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       └── __init__.cpython-36.pyc
+│   │   
 │   ├── models.py
 │   ├── tests.py
 │   ├── urls.py
 │   └── views.py
 ├── contacts
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-36.pyc
-│   │   ├── admin.cpython-36.pyc
-│   │   ├── apps.cpython-36.pyc
-│   │   ├── models.cpython-36.pyc
-│   │   ├── urls.cpython-36.pyc
-│   │   └── views.cpython-36.pyc
+│   |
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-36.pyc
-│   │       └── __init__.cpython-36.pyc
+│   │   
 │   ├── models.py
 │   ├── tests.py
 │   ├── urls.py
 │   └── views.py
 ├── db.sqlite3
 ├── listings
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-36.pyc
-│   │   ├── admin.cpython-36.pyc
-│   │   ├── apps.cpython-36.pyc
-│   │   ├── choices.cpython-36.pyc
-│   │   ├── models.cpython-36.pyc
-│   │   ├── urls.cpython-36.pyc
-│   │   └── views.cpython-36.pyc
+│   |
 │   ├── admin.py
 │   ├── apps.py
 │   ├── choices.py
 │   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   ├── 0002_auto_20190121_0736.py
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-36.pyc
-│   │       ├── 0002_auto_20190121_0736.cpython-36.pyc
-│   │       └── __init__.cpython-36.pyc
+│   │   
 │   ├── models.py
 │   ├── tests.py
 │   ├── urls.py
@@ -108,39 +74,20 @@ It has custom administration for staff and a dashboard for registerd users.
 │                   ├── kyle.jpg
 │                   └── mark.jpg
 ├── pages
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-36.pyc
-│   │   ├── admin.cpython-36.pyc
-│   │   ├── apps.cpython-36.pyc
-│   │   ├── models.cpython-36.pyc
-│   │   ├── urls.cpython-36.pyc
-│   │   └── views.cpython-36.pyc
+│   |
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       └── __init__.cpython-36.pyc
 │   ├── models.py
 │   ├── tests.py
 │   ├── urls.py
 │   └── views.py
 ├── realtors
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-36.pyc
-│   │   ├── admin.cpython-36.pyc
-│   │   ├── apps.cpython-36.pyc
-│   │   └── models.cpython-36.pyc
+|   |
 │   ├── admin.py
 │   ├── apps.py
 │   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-36.pyc
-│   │       └── __init__.cpython-36.pyc
+│   │  
 │   ├── models.py
 │   ├── tests.py
 │   └── views.py
@@ -336,12 +283,7 @@ It has custom administration for staff and a dashboard for registerd users.
 │       ├── _navbar.html
 │       └── _topbar.html
 └── valle_real_estate
-    ├── __init__.py
-    ├── __pycache__
-    │   ├── __init__.cpython-36.pyc
-    │   ├── settings.cpython-36.pyc
-    │   ├── urls.cpython-36.pyc
-    │   └── wsgi.cpython-36.pyc
+    |
     ├── settings.py
     ├── static
     │   ├── css

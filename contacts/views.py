@@ -26,14 +26,17 @@ def contact(request):
         phone=phone,message=message, user_id=user_id)
 
         contact.save()
-        #send email only after its saved into db
-        send_mail(
-            'Property listing Inquiry',
-            'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info.'
-            'marketing.landeros@gmail.com'
-            [realtor_email,'landerosedgard@gmail.com'],
-            fail_silently=False
-        )
+        
+
+        # USE SEND GRID IN PRODUCTION
+        # #send email only after its saved into db
+        # send_mail(
+        #     'Property listing Inquiry',
+        #     'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info.'
+        #     'marketing.landeros@gmail.com'
+        #     [realtor_email,'landerosedgard@gmail.com'],
+        #     fail_silently=False
+        # )
 
         messages.success(request, 'Your request has been submitted a realtor will get back to you soon')
         return redirect ('/listings/'+listing_id)
