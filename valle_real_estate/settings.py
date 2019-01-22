@@ -145,6 +145,6 @@ MESSAGE_TAGS ={
 # Email config for gmail
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = ''  #gmail user
+EMAIL_HOST_USER = 'marketing.landeros@gmail.com'  #gmail user
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
