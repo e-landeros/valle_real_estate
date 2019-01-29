@@ -5,4 +5,16 @@ It has custom administration for staff and a dashboard for registerd users.
 - Python 3
 - Postgresql
 
-![](valle_real_estate/static/img/vallerealestate full home.jpeg)
+## Features
+- text searchable fields 
+- full filter search with variants commented out in the models
+- fully customized admin dashboard.
+- User registration and AUthentication for contacts
+
+## Future Plans
+- integrate blog app
+- multi language support
+- multiple templates
+
+![](vallerealestate full home.jpeg)
+<img src="valle_real_estate/static/img/vallerealestate full home.jpeg"/>
